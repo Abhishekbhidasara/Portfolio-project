@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    color: #333;
+    position: relative;
+}
+
+header{
+    position:sticky;
+    top:0;
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 0px;
+    padding-bottom: 10px; 
+}
+
+nav h1{
+    margin: 0;
+    font-size: 1.5rem;
+   
+}
+ nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+ }
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-top: 2px;
+    padding-left: 6px;
+}
+
+section{
+    padding-top:10px ;
+    padding-left: 0px;
+    padding-bottom: 25px;
+    text-align: center;
+
+}
+section p{
+    font-size: 0.8rem;
+}
+
+section h2{
+    font-size: 1rem;
+    margin: 10px 0px 20px;
+}
+
+hr{
+    margin: 0;
+    border-top: 2px solid black;
+}
+.image{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    display: block;
+    background-color: blue;
+    margin:0 auto 20px ;
+}
+
+.skils{
+    margin: 0 auto;
+    width: 350px;
+    border:2px solid blue;
+    font-size: 0.7rem;
+    border-collapse: collapse;
+}
+.skils th{
+     background-color: blue;
+     color: white;
+     padding: 10px;
+     border: 2px solid blue;
+    
+}
+.skils td{
+    padding: 10px;
+    border: 2px solid blue;
+    text-align: center;
+}
+#project{
+    background-color: white;
+    width: 400px;
+    margin: 0 auto 15px;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#project h3{
+    margin: 10px 0;
+    font-size: 1rem;
+
+}
+#project p{
+    margin: 10px 0 15px;
+}
+
+.contact{
+    margin: 0 auto;
+    width: 450px;
+    border: 2px solid blue;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+.contact td{
+    padding: 5px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    border: 2px solid blue;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea{
+    width: 90%;
+    font-family: inherit;
+    font-size: 0.6rem;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+}
+
+.contact textarea{
+    height: 40px;
+    
+}
+
+.tops {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.7rem;  
+
+}
+.tops:hover{
+    background-color: darkblue;
+}
+#submit{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px 0;
+    font-family: inherit;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: darkblue;
+}
+footer{
+    background-color: blue;
+    height: 17px;
+}
+footer p{
+    padding: 2px;
+    font-size: 0.8rem;
+    color: white;
+}
